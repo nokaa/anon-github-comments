@@ -31,3 +31,9 @@ let names = elements.filter(function(x) {
 names.forEach(function(x) {
     x.innerHTML = "Anonymous";
 });
+
+var contributor_badge = document.getElementsByClassName("timeline-comment-label");
+
+for (i = (contributor_badge.length - 1); i >= 0; i--) {
+    contributor_badge.item(i).remove();
+}
