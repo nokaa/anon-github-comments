@@ -2,6 +2,8 @@
 
 A userscript to replace usernames in Github comments with "Anonymous".
 
+## This userscript is deprecated by [anonymous-github](https://github.com/nokaa/anonymous-github).
+
 TODO
 
 It would be nice if hovering over a name would show the actual name. For now,
